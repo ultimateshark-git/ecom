@@ -1,0 +1,25 @@
+@font-face{
+	font-family:'FSM-Bold';
+	src:url('../fonts/FSM-Bold.otf') format('opentype');
+}
+
+@font-face{
+	font-family:'FSM-Light';
+	src:url('../fonts/FSM-Light.otf') format('opentype');
+}
+
+@font-face{
+	font-family:'FSM-Medium';
+	src:url('../fonts/FSM-Medium.otf') format('opentype');
+}
+
+@font-face{
+	font-family:'FSM-Regular';
+	src:url('../fonts/FSM-Regular.otf') format('opentype');
+}
+
+@font-face{
+	font-family:'FSM-Thin';
+	src:url('../fonts/FSM-Thin.otf') format('opentype');
+}
+

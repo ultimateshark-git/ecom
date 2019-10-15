@@ -1,0 +1,150 @@
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding:16px 5% 10px 5%;
+}
+
+.logo{
+	font-family: 'FSM-Medium';
+	font-size: 2.2rem;
+}
+
+nav input{
+	border: none;
+	width:300px;
+	margin-left:5px;
+	margin-top:10px;
+	font-size: 1rem;
+}
+
+nav input:focus{
+	outline: none;
+}
+
+.search{
+	border-bottom:1px solid #d7d5d6;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	margin-top:-10px;
+}
+
+.opts{
+}
+
+.opt_icon_name{
+	text-align: center;
+	margin-left:11px;
+	margin-right: 11px;
+}
+
+.nav_icon{
+	width:18px;
+}
+
+.nav_icon_label{
+	font-family: 'FSM-Light';
+	font-size: 0.7rem;
+}
+
+.opts{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+
+.second_nav{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-content: center;
+	padding:5px 5% 5px 5%;
+}
+
+.second_nav div{
+	font-family: 'FSM-Medium';
+	font-size:0.9rem;
+	padding-top:10px;
+	padding-bottom: 10px;
+	text-align: center;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.second_nav div:hover{
+	cursor:pointer;
+	transition:0.2s;
+	background-color:#2b2b2b;
+	color:#fff;
+}
+
+
+
+/* Footer */
+
+.footer{
+	padding:40px 6% 20px 6%;
+	background-color:#f8f8f8;
+	display:flex;
+	flex-direction: row;
+	width:95%;
+	margin:auto;
+	justify-content: space-between;
+}
+
+.column{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.footer div{
+	font-size: 1.1rem;
+	font-family:'FSM-Medium'
+}
+
+
+
+.footer a{
+	text-decoration: none;
+	color:#000;
+	font-family:'FSM-Light';
+	font-size:0.9rem;
+	margin-top:10px;
+	cursor: pointer;
+}
+
+.footer a:hover{
+	text-decoration: underline;
+	transition: 0.2s ease;
+}
+
+.bottombar{
+	border-top:2px solid #dadada;
+	display:flex;
+	flex-direction: row;
+	padding-top:25px;
+	width:95%;
+	margin:auto;
+	justify-content: space-between;
+	align-items:center;
+}
+
+.address{
+	font-size:1rem;
+	font-family:'FSM-Light'
+}
+
+.bottom_links a{
+	margin-left:10px;
+	font-size:0.8rem;
+	font-family:'FSM-Light'
+}
+
+.bottom_links a:hover{
+	cursor: pointer;
+	opacity: 0.7;
+	text-decoration: underline;
+}

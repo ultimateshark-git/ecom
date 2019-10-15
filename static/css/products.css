@@ -1,0 +1,67 @@
+
+*{
+	font-family: 'FSM-Regular';
+	box-sizing: border-box;
+}
+
+
+
+.path{
+	font-family:'FSM-Light';
+	font-size: 0.8rem;
+	display: flex;
+	flex-direction: row;
+	margin:auto;
+	width:95%;
+	margin-top:15px;
+}
+
+.path div {
+	margin-left:5px;
+}
+
+.heading_prod{
+	font-size:2.3rem;
+	font-family:'FSM-Bold';
+	text-align: center;
+	margin-top:10px;
+	width:95%;
+}
+
+
+.chair_cat{
+	width:70%;
+	margin:auto;
+	margin-top:10px;
+}
+
+.box_wrap{
+	width:18%;
+	float:left;
+	margin-left:16px;
+	margin-top:30px;
+	overflow: hidden;
+}
+
+.box_wrap:hover .cat_img{
+	transform: scale(1.1);
+	transition: 0.2s ease-in;
+} 
+
+.box_wrap a{
+	color:#000;
+	text-decoration: none;
+	font-size:1em;
+}
+
+.box div{
+	color:#000;
+	font-family: 'FSM-Thin';
+	font-size:1em;
+	text-decoration: none;
+	text-align: center;
+}
+
+.cat_img{
+	width:100%;
+}
