@@ -22,7 +22,6 @@
   cursor: pointer;
   position: absolute;
   top: 50%;
-  width: auto;
   background-color: rgba(255,255,255,0.4);
   margin-top: -22px;
   padding: 16px;

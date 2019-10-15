@@ -1,0 +1,78 @@
+@media only screen and (max-width:1200px){
+	.second_nav{
+		display: none ;
+	}
+
+	
+}
+
+@media only screen and (max-width:800px){
+
+nav{
+	padding:10px 0px 10px 0px;
+}
+
+nav input{
+	display: none;
+}
+
+.logo{
+	width:50px 
+}
+
+	.slideshow-container{
+		width:100% ;
+	}
+
+	.prev , .next{
+		position: absolute;
+		top:30% ;
+	},
+
+
+
+}
+
+@media only screen and (max-width:700px){
+.girl_sofa_wrap{
+	display: flex;
+	flex-direction: column ;
+}
+
+.shop_by{
+	display: flex;
+	flex-direction: column ;
+}
+
+.link{
+	font-size:1rem;
+}
+
+.shop_by_img{
+	display: none ;
+}
+
+.section_two{
+	display: flex;
+	flex-direction: column ;
+}
+
+.c2{
+	display: none;
+}
+
+.footer{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+}
+
+
+@media only screen and (max-width:500px){
+	.item{
+		margin-left:45px;
+	}	
+}

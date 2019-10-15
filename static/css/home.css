@@ -6,6 +6,10 @@
 	box-sizing: border-box;
 }
 
+.logo{
+	width:100px;
+}
+
 
 
 .heading_large{
@@ -375,7 +379,7 @@
 .section_two{
 	display: flex;
 	flex-direction:row;
-	height: 90vh;
+	 
 	width:95%;
 	margin:auto;
 	background-color:#ffa38e;
